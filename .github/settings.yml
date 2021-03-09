@@ -3,7 +3,7 @@ repository:
     has_issues: true
     has_wiki: false
     has_downloads: true
-    default_branch: master
+    default_branch: main
     allow_squash_merge: false
     allow_merge_commit: true
     allow_rebase_merge: false
@@ -94,7 +94,7 @@ labels:
       description: "Issue/PR opened by sponsor"
 
 branches:
-    - name: master
+    - name: main
       protection:
           required_pull_request_reviews:
               required_approving_review_count: 1
