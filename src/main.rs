@@ -35,7 +35,7 @@ lazy_static! {
 #[tokio::main]
 async fn main() {
     register_custom_metrics();
-    let addr = ([127, 0, 0, 1], 8080).into();
+    let addr = ([0, 0, 0, 0], 16289).into();
     println!("Listening on http://{}", addr);
 
     tokio::task::spawn(data_collector());
